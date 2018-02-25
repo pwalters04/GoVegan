@@ -1,0 +1,15 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    {{title}}
+  </div>
+  <div class="panel-body">
+    <form [formGroup]="veganForm" (ngSubmit)="onSubmit()" novalidate>
+      <div class="form-group">
+        <label class="center-block" placeholder="First Name">First Name</label>
+        <input class="form-control" formControlName="firstName">
+      </div>
+      
+    </form>
+
+  </div>
+</div>
