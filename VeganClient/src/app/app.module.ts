@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {RouterModule} from '@angular/router';
 import {appRoute} from './app.routing';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
@@ -21,7 +22,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoute),
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
