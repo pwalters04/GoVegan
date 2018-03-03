@@ -1,10 +1,8 @@
-<div class="panel panel-primary">
-    <!-- <div class="panel-heading">
-        {{ title }}
-      </div> -->
-  <div class="card" style="margin-left: 5em;">
+<div class="panel panel-primary"> 
+
+  <div class="card" style="margin-left: 50px;"style="width:50%">
     <div class="card-block">
-        <h4 class="card-title" style="text-align: center"> Welcome - Get Ready To Eat Fresh Healthy Food</h4>
+        <h4 class="card-title" style="text-align: center"> Sign Up For Free</h4>
     <form [formGroup]="veganForm" (ngSubmit)="onSubmit()" novalidate>
       <div class="form-group">
         <input class="form-control" formControlName="firstName" type="text" placeholder="First Name">
@@ -21,7 +19,7 @@
       <div class="form-group">
         <input class="form-control" formControlName="state" type="text" placeholder="State">
       </div>
-      <button type="submit" [disabled]="heroForm.pristine" class="btn btn-success">Save</button>
+      <button type="submit" [disabled]="heroForm.pristine" style="width:50%"class="btn btn-lg btn-block btn-primary">Create Profile</button>
     </form>
     </div>
   </div>

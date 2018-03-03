@@ -1,0 +1,18 @@
+form   {
+    padding: 10px;
+    background: #24333B;
+    border-radius: 10px;
+    
+  }
+
+.card-block{
+    background: #24333B; 
+    
+ }
+ .card-title{
+     color: #ffffff;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .form-control{
+     width: 50%;
+ }

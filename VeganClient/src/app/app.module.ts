@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { VegansComponent } from './vegans/vegans.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { VeganRegFormComponent } from './vegan-reg-form/vegan-reg-form.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     VegansComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    VeganRegFormComponent
   ],
   imports: [
     BrowserModule,
